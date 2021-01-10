@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "proconf"
+version = "0.1.0"
+description = "Aspiring to easy, correct, and secure configuration."
+authors = ["Nathan Slaughter <nslaughter@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+mypy = "^0.790"
+yapf = "^0.30.0"
+pytest-cov = "^2.10.1"
+flake8 = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
